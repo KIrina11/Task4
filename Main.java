@@ -10,6 +10,7 @@ public class Main {
             int digit1 = i / 100;
             int digit2 = i / 10 % 10;
             int digit3 = i % 10;
+            
             sum = calculateSum(i, digit1, digit2, digit3, sum);
         }
         
