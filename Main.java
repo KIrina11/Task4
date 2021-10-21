@@ -20,7 +20,8 @@ public class Main {
         if (digit1 != digit2 && digit1 != digit3 && digit2 != digit3) {
             sum = sum + i;
             return sum;
-        } else {
+        } 
+        else {
             return sum;
         }
     }
