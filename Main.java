@@ -10,10 +10,9 @@ public class Main {
             int digit1 = i / 100;
             int digit2 = i / 10 % 10;
             int digit3 = i % 10;
-
+            
             sum = calculateSum(i, digit1, digit2, digit3, sum);
         }
-
         writeArea(sum);
     }
 
@@ -21,7 +20,6 @@ public class Main {
         
         if (digit1 != digit2 && digit1 != digit3 && digit2 != digit3) {
             sum = sum + i;
-            
             return sum;
         } 
         else {
