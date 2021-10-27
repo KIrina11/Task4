@@ -3,7 +3,7 @@ package ru.vsu.cs.kislova_i_v;
 public class Main {
 
     public static void main(String[] args) {
-        int sum =0;
+        int sum = 0;
 
         for (int i = 100; i <= 999; i++) {
             int digit1 = i / 100;
